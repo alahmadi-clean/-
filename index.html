@@ -29,7 +29,38 @@
 </script>
  
 
+<style>
+.fixed-contact-buttons {
+    position: fixed;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    z-index: 9999;
+    pointer-events: none;
+}
 
+.fixed-contact-buttons a {
+    pointer-events: auto;
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.call-button {
+    background: #1976d2;
+}
+
+.whatsapp-button {
+    background: #25D366;
+}
+</style>
    
 
     <!-- خط عربي -->
@@ -841,6 +872,17 @@
 الأحمدي كلين شركه نظافة بجدة تقدم خدمات مكافحة الحشرات والقضاء على الصراصير والنمل والبق⭐،
 بالإضافة إلى خدمات التنظيف والتعقيم وتنظيف وتعقيم وعزل الخزانات وتنظيف وتعقيم الشقق وتنظيف المكيفات ليخرج هواء نقي وبارد وتركيب طارد الحمام والطيور.
 </p>
+    <div class="fixed-contact-buttons">
+
+    <a class="call-button" href="tel:+966502955444">
+        📞 اتصال
+    </a>
+
+    <a class="whatsapp-button" href="https://wa.me/966502955444" target="_blank">
+        💬 واتساب
+    </a>
+
+    </div>
     <!-- =========================================
          الشريط العلوي
     ========================================== -->
